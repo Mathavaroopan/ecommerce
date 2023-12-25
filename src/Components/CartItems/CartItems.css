@@ -1,0 +1,82 @@
+.cart {
+    margin: 100px 170px;
+}
+
+.cart hr{
+    height: 3px;
+    background: white;
+    border: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.format{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.format img{
+    height: 120px;
+}
+
+.remove-btn{
+    width: 120px;
+    height: 50px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.format p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.cart-down{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+
+.total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.cart-total button{
+    width: 260px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: -10px;
+}
+
+
